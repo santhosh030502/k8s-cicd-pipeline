@@ -1,0 +1,19 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "Small REST API used to practice docker, k8s and CI/CD",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "prom-client": "^15.1.3"
+  }
+}
